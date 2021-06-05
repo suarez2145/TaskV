@@ -1,0 +1,78 @@
+nav{
+    /* background-color:darkcyan;  */
+    background: url("/static/img/login_background.png");
+    height:100px;
+    line-height:100px;
+}
+
+
+h5{
+    height:60px;
+    line-height:60px;
+    padding-right: 30px;
+    margin-top: 19px;
+
+}
+
+h6{
+    height:60px;
+    line-height:60px;
+    padding-right: 30px;
+    margin-top: 19px;
+
+}
+
+#logo{
+    margin-top: -75px;
+}
+
+.container{
+    margin-top: 19px;
+}
+
+
+.worksites_list{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.sidenav {
+    background: url("/static/img/login_background.png");
+    text-align: center;
+  }
+
+
+
+
+.container{
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:420px){
+
+    .row-align{
+        margin-left: -75px;
+    }
+}
+
+
+
+
+
+@media (max-width:375px){
+
+    .row-align{
+        margin-left: -95px;
+    }
+
+}

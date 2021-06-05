@@ -1,0 +1,332 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("/static/img/login_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.grid_cont{
+    display: grid;
+    padding-top: 10%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 200px;
+    grid-template-areas: 
+      ". a a ."
+      ". a a .";
+}
+
+.login{
+    
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    opacity: 0.5;
+    border: 10px solid white;
+    padding-bottom: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+
+
+.login_header {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25%;
+    color: white;
+    z-index: 1;
+
+}
+
+.text_box_1{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 5px solid;
+}
+
+.text_box_2{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 5px solid;
+}
+
+
+.text_box_1 i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.text_box_2 i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.text_box_1 :placeholder-shown{
+    border:none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    margin: 0 10px;
+    float: left;
+    
+
+}
+
+.text_box_2 :placeholder-shown{
+    border:none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    margin: 0 10px;
+    float: left;
+    
+
+}
+
+
+
+.text_box_1 input{
+    border:none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 10px;
+    float: left;
+
+}
+
+.text_box_2 input{
+    border:none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 10px;
+    float: left;
+
+}
+
+
+
+
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 5%;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+@media (max-width:375px){
+
+    html{
+        height: 100%;
+    }
+
+    body{
+        background-size:cover;
+    }
+
+
+
+}
+
+@media (max-width:1900px){
+    body{
+        background-size:cover;
+            }
+        
+        
+    html{
+        height: 100%;
+    }           
+        
+    
+}
+
+
+
+/* unused media queries  */
+
+/* @media (max-width:375px){
+
+html{
+    height: 100%;
+}
+
+.grid_cont{
+    height: 667px;
+}
+
+.login{
+    height: 40%;
+    margin-top: -4%;
+}
+
+body{
+    background-size: cover;
+}
+
+.text_box_1 :placeholder-shown{
+    font-size: 15px;
+} 
+
+
+
+.text_box_2 :placeholder-shown{
+    font-size: 15px;
+} 
+
+.text_box_1{
+    margin-top: -20%;
+}
+
+
+}
+
+
+@media (max-width:414px){
+
+html{
+    height: 100%;
+}
+
+.grid_cont{
+    height: 667px;
+}
+
+.login{
+    height: 40%;
+    margin-top: -4%;
+}
+
+body{
+    background-size: cover;
+}
+
+.text_box_1 :placeholder-shown{
+    font-size: 15px;
+} 
+
+
+
+.text_box_2 :placeholder-shown{
+    font-size: 15px;
+} 
+
+.text_box_1{
+    margin-top: -20%;
+}
+
+
+
+
+}
+
+
+@media (max-width:750px){
+
+html{
+    height: 100%;
+}
+
+.login{
+    padding-bottom: 20%;
+}
+
+
+body{
+    background-size: cover;
+}
+
+.text_box_1 :placeholder-shown{
+    font-size: 15px;
+} 
+
+.text_box_2 :placeholder-shown{
+    font-size: 15px;
+} 
+
+
+.text_box_1{
+    margin-top: -20%;
+}
+
+
+}
+
+
+@media (max-width:950px){
+
+html{
+    height: 100%;
+}
+
+body{
+    background-size: cover;
+}
+
+.text_box_1 :placeholder-shown{
+    font-size: 15px;
+} 
+
+.text_box_2 :placeholder-shown{
+    font-size: 15px;
+} 
+
+
+.login{
+    padding-bottom: 10%;
+}
+
+
+.text_box_1{
+    margin-top: -20%;
+}
+
+
+
+
+} */
+
+

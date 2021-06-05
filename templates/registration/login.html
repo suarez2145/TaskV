@@ -1,0 +1,67 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/static/css/login.css">
+    
+  </head>
+
+
+  <body>
+              <!-- original login -->
+            <!-- <div class="grid_cont">
+              <div class="login">
+                <h1 class="login_header">Login</h1>
+
+                <form class="text_boxes" method="post">
+                  {% csrf_token %}
+                  {{ form.as_p }}
+                  <button type="submit" class="btn btn-primary btn-block btn-large">Login</button>
+                </form>
+              </div>
+            </div> -->
+
+
+
+    <form method="POST">{% csrf_token %}
+        
+        <div class="grid_cont">
+          <div class="login">
+
+            <h1 class="login_header">Login</h1>
+              <div class="text_box_1">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="input" class="form-control" name="username" id="inputEmail" placeholder="Username" required >
+              </div>
+              <div class="text_box_2">
+                  <i class="fa fa-lock"></i>
+                <input type="password" class="form-control" name="password" id="inputPass" placeholder="Password" required>
+              </div>
+                <button class="btn" type="submit">Sign in</button>
+          </div>
+        </div>
+    </form>
+
+
+
+  </body>
+</html>
+
+
+
+
+<!-- {% comment %} 
+<h2>Login</h2>
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Login</button>
+</form> {% endcomment %} -->

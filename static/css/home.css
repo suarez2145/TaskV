@@ -1,0 +1,112 @@
+
+html,body{
+    min-height: 100%;
+}
+
+
+nav{
+    /* background-color:darkcyan;  */
+    /* background: url("/static/img/login_background.png"); */
+    background: transparent;
+    height:100px;
+    line-height:100px;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.slider{
+    z-index: -1;
+}
+
+h5{
+    height:60px;
+    line-height:60px;
+    padding-right: 30px;
+    margin-top: 19px;
+
+}
+
+h6{
+    height:60px;
+    line-height:60px;
+    padding-right: 30px;
+    margin-top: 19px;
+
+}
+
+#logo{
+    margin-top: -75px;
+}
+
+.container{
+    margin-top: 19px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("/static/img/checklist.png") no-repeat;
+    background-size: cover;
+}
+
+.worksites_list{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.sidenav {
+    background: url("/static/img/login_background.png");
+    text-align: center;
+  }
+
+
+
+
+.container{
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:420px){
+
+    .row-align{
+        margin-left: -75px;
+    }
+
+
+
+
+    html{
+        height: 100%;
+    }
+
+    body{
+        background-position: center;
+    }
+}
+
+
+
+
+
+@media (max-width:375px){
+
+    .row-align{
+        margin-left: -95px;
+    }
+
+    body{
+        background-position: center;
+    }
+}
+
+
